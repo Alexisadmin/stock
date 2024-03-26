@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Management Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+  <h2 class="mt-5 mb-4">Stock Management </h2>
+  <a href="stock.php" class="btn btn-success m-3">Add New</a>
+  <a href="dashboard.php" class="btn btn-info m-3">Dashboard</a>
+  <!-- Stock Table -->
+  <div class="card mb-4">
+    <div class="card-header">
+      Stock Information
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Product Name</th>
+              <th>Category</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Supplier</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Product A</td>
+              <td>Electronics</td>
+              <td>50</td>
+              <td>$100</td>
+              <td>Supplier X</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Product B</td>
+              <td>Clothing</td>
+              <td>30</td>
+              <td>$50</td>
+              <td>Supplier Y</td>
+            </tr>
+            <!-- Additional rows can be added here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
